@@ -12,4 +12,7 @@ describe('User story 2', () => {
     it('Given bus with stop [1,0] and [1,0] When calculating Then reuslt should be 2', () => {
       expect(peopleOnTheBus([[1,0], [1,0]])).toBe(2);
     });
+    it('Given bus with stop [1,0] and [1,1] When calculating Then reuslt should be 1', () => {
+        expect(peopleOnTheBus([[1,0], [1,1]])).toBe(1);
+      });
   });
