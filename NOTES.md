@@ -1,6 +1,6 @@
 # Notes
 > Pomodoro 1
-- Note
+- User story 1 + scenarios
 > Pomodoro 2
 - Note
 > Pomodoro 3
