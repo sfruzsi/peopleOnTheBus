@@ -1,4 +1,9 @@
 const peopleOnTheBus = (busStops) => {
-    return busStops.length > 1 ? busStops[0][0] + busStops[1][0] - busStops[1][1] : busStops[0][0];
+    let passangers = 0;
+    for (let i = 0; i < busStops.length; i++) {
+        passangers += busStops[i][0];
+        passangers -= busStops[i][1];
+    }
+    return passangers;
 };
 module.exports = peopleOnTheBus;
