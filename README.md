@@ -34,3 +34,14 @@ Then I get the onboarding passangers' number
 Given a bus that has two stops
 When I calculate the remaining passangers
 Then I get the remaining passangers
+
+## User story 2
+> As a bus driver
+> I want to calculate how much people are left on the bus after multiple stops
+> So that I can know how many are left
+
+
+### Scenario 1
+Given a bus that has more then 2 stops
+When I calculate the remaining passangers
+Then I get the remaining passangers
