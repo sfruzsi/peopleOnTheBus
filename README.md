@@ -16,9 +16,9 @@ Your task is to return number of people who are still in the bus after the last 
 - Complexity check
 
 ## User story 1
-> As a User
+> As a bus driver
 > I want to calculate how many people are left on the bus after 1 stop
-> So that I can know the number
+> So that I can know how many are left
 
 ### Scenario 1
 Given a bus that has one stop
@@ -26,5 +26,7 @@ When I calculate the remaining passangers
 Then I get the onboarding passangers' number
 
 ## User story 2
-> As a ...
+> As a bus driver
+> I want to calculate how much people are left on the bus after 2 stops
+> So that I can know how many are left
 
